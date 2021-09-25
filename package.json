@@ -4,6 +4,8 @@
   "description": "Roblox Typescript package for using type-safe attributes.",
   "main": "out/Index.lua",
   "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
   "repository": {

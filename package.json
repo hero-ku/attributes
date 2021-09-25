@@ -1,0 +1,28 @@
+{
+  "name": "@rbxts/attributes",
+  "version": "1.0.0",
+  "description": "Roblox Typescript package for using type-safe attributes.",
+  "main": "out/Index.lua",
+  "scripts": {
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hero-ku/attributes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "out/Index.d.ts",
+  "files": [
+    "out"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^1.2.3-types.0",
+    "@rbxts/pascal": "^1.1.1",
+    "@rbxts/types": "^1.0.531"
+  }
+}
